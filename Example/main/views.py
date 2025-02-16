@@ -9,3 +9,9 @@ def new(request):
 
 def nav(request):
     return render(request, 'main/nav.html')
+
+def about(request):
+    return render(request, 'main/about.html')
+
+def contacts(request):
+    return render(request, 'main/contacts.html')
